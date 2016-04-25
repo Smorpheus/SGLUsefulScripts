@@ -8,7 +8,7 @@ public class AnimatedLoadingText : MonoBehaviour
     [SerializeField] private Text loadCopyText;
     [SerializeField] string baseLoadingText = "Loading";
     [SerializeField] string punctuation = ".";
-    [SerializeField] int max_punctuation = 3;
+    [SerializeField] int maxPunctuation = 3;
     [SerializeField] float timeBetweenPeriods;
 
     int periodIndex;
